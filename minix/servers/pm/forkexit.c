@@ -410,7 +410,7 @@ int dump_core;			/* flag indicating whether to dump core */
 	*/
 	printf("PM: The scheduler did not want to give up "
 		"scheduling %s, ret=%d.\n", rmp->mp_name, r);
-  } 
+  }
 
   /* sched_stop is either called when the process is exiting or it is
    * being moved between schedulers. If it is being moved between
